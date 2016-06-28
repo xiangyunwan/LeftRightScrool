@@ -35,7 +35,7 @@ public class TableActivity extends Activity {
 		rightListView = (ListView) findViewById(R.id.right_container_listview);
 		titleHorsv = (SyncHorizontalScrollView) findViewById(R.id.title_horsv);
 		contentHorsv = (SyncHorizontalScrollView) findViewById(R.id.content_horsv);
-		// ��������ˮƽ�ؼ�������
+		//
 		titleHorsv.setScrollView(contentHorsv);
 		contentHorsv.setScrollView(titleHorsv);
 

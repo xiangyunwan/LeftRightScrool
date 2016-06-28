@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.HorizontalScrollView;
 /**
-* @Description:Õâ¸öÀàÒ²ÊÇ´ÓÍøÉÏÕÒµÄ²Î¿¼
+* @Description:è¿™ä¸ªç±»ä¹Ÿæ˜¯ä»ç½‘ä¸Šæ‰¾çš„å‚è€ƒ
 */
 public class SyncHorizontalScrollView extends HorizontalScrollView {
 	
@@ -23,14 +23,14 @@ public class SyncHorizontalScrollView extends HorizontalScrollView {
  
 	protected void onScrollChanged(int l, int t, int oldl, int oldt) {
 		super.onScrollChanged(l, t, oldl, oldt);
-		//ÉèÖÃ¿Ø¼ş¹ö¶¯¼àÌı£¬µÃµ½¹ö¶¯µÄ¾àÀë£¬È»ºóÈÃ´«½øÀ´µÄviewÒ²ÉèÖÃÏàÍ¬µÄ¹ö¶¯¾ßÌå
+		//è®¾ç½®æ§ä»¶æ»šåŠ¨ç›‘å¬ï¼Œå¾—åˆ°æ»šåŠ¨çš„è·ç¦»ï¼Œç„¶åè®©ä¼ è¿›æ¥çš„viewä¹Ÿè®¾ç½®ç›¸åŒçš„æ»šåŠ¨å…·ä½“
 		if(mView!=null) {
 			mView.scrollTo(l, t);
 		}
 	}
 	
 	/**
-	* ÉèÖÃ¸úËüÁª¶¯µÄview
+	* è®¾ç½®è·Ÿå®ƒè”åŠ¨çš„view
 	* @param view
 	*/
 	public void setScrollView(View view) {
