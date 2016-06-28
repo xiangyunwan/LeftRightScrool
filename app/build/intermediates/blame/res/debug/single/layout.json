@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\github_src\\LeftRightScrool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_right_tab.xml",
+        "source": "D:\\github_src\\LeftRightScrool\\app\\src\\main\\res\\layout\\layout_right_tab.xml"
+    },
+    {
+        "merged": "D:\\github_src\\LeftRightScrool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_left_item.xml",
+        "source": "D:\\github_src\\LeftRightScrool\\app\\src\\main\\res\\layout\\layout_left_item.xml"
+    },
+    {
+        "merged": "D:\\github_src\\LeftRightScrool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_view.xml",
+        "source": "D:\\github_src\\LeftRightScrool\\app\\src\\main\\res\\layout\\layout_tab_view.xml"
+    },
+    {
+        "merged": "D:\\github_src\\LeftRightScrool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_left_title.xml",
+        "source": "D:\\github_src\\LeftRightScrool\\app\\src\\main\\res\\layout\\layout_left_title.xml"
+    },
+    {
+        "merged": "D:\\github_src\\LeftRightScrool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_right_item.xml",
+        "source": "D:\\github_src\\LeftRightScrool\\app\\src\\main\\res\\layout\\layout_right_item.xml"
+    }
+]
